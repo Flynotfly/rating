@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #dad9e1;
+}
+
+.centreback{
+  position: relative;
+  width: 960px;
+  height: auto;
+  margin: 40px auto 0px auto;
+}
+.leftBar{
+  width: 160px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  float: left;
+}
+.lBarYear{
+  width: 160px;
+  height: 30px;
+  position: relative;
+  background:  #252f3b;
+}
+.lBarName{
+  padding: 6px 0px 0px 8px;
+  font-size: 13px;
+  position: relative;
+  font-weight: 700;
+}
+.lBarYearlist{
+  width: 160px;
+  position: relative;
+  height: auto;
+}
+.lBarListElementYear{
+  width: 160px;
+  position: relative;
+  height: 30px;
+  background: #383848;
+  border-top: 1px dotted #99a;
+  cursor: pointer;
+}
+.lBarListElementYear:hover{
+    background-color: #45515f;
+}
+.lBarListElementMonth{
+  width: 160px;
+  position: relative;
+  height: 30px;
+  background: #383848;
+  border-top: 1px dotted #99a;
+  cursor: pointer;
+}
+.lBarListElementMonth:hover{
+    background-color: #45515f;
+}
+.lBarListElementName{
+  padding: 6px 0px 0px 8px;
+  font-size: 13px;
+  position: relative;
+  font-weight: 400;
+}
+.lBarMonthList{
+  width: 160px;
+  position: relative;
+  height: auto;
+}
+.lBarMonth{
+  width: 160px;
+  height: 30px;
+  position: relative;
+  background:  #252f3b;
+  margin-top: 20px;
+}
+.lBarDayList{
+  width: 150px;
+  position: relative;
+  height: auto;
+  padding-left: 10px;
+  display: none;
+}
+.lBarListElementDay{
+  width: 150px;
+  position: relative;
+  height: 30px;
+  background: #484863;
+  border-top: 1px dotted #99a;
+  cursor: pointer;
+}
+.lBarListElementDay:hover{
+    background-color: #45515f;
+}
+
+
+
+.centrebar{
+  width: 640px;
+  height: auto;
+  margin: 0px 0px 0px 20px;
+  position: relative;
+  float: left;
+}
+.ratedate{
+  margin: 0px auto 0px auto;
+  position: relative;
+  color: #929a9e;
+  font-size: 20px;
+}
+.teamblock {
+  width: 640px;
+  height: 40px;
+  background: #252f3b;
+  position: relative;
+  margin: 8px 0px 0px 0px;
+  cursor: pointer;
+}
+.teamblock:hover {
+  background: #45515f;
+}
+.teamtable {
+  padding: 2px 0 0 5px;
+  margin-left: 70px;
+  height: 26px;
+}
+.teamlogo{
+	height: 28px;
+	width: 28px;
+	padding-top: 7px;
+  margin-left: 38px;
+  position: absolute;
+}
+.teamposition {
+  padding-left: 5px;
+	padding-top: 8px;
+	color:#929a9e;
+	font-size: 19px;
+  width: 30px;
+  position: absolute;
+  font-family: sans-serif;
+  font-family: Open Sans;
+  font-weight: 700;
+}
+.teamname {
+  color:#929a9e;
+	font-size: 19px;
+  height: 22px;
+}
+.teampoints {
+  color:#929a9e;
+	font-size: 12px;
+  height: 15px;
+  margin-left: 8px;
+}
+.teamplayersname{
+  color: #888;
+  font-size: 10px;
+}
+
+
+
+.upbar{
+  position: fixed;
+  background-color: #2d3844;
+  width: 100%;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  z-index: 500;
+}
+.upbardop{
+  position: relative;
+  margin: 0px auto 0px auto;
+  height: 50px;
+  width: 960px
+}
+.upbarnews{
+  height:50px;
+  width: 65px;
+  border-left: 1px solid #404d5b;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarnews:hover{
+  background-color: #45515f;
+}
+.upbarmatches{
+  height:50px;
+  width: 55px;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarmatches:hover{
+  background-color: #45515f;
+}
+.upbartext{
+  color:#929a9e;
+  font-size: 14px;
+  padding-top: 18px;
+  padding-left: 7px;
+}
+.upbarresults{
+  height:50px;
+  width: 90px;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarresults:hover{
+  background-color: #45515f;
+}
+.upbarevents{
+  height:50px;
+  width: 73px;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarevents:hover{
+  background-color: #45515f;
+}
+.upbarstats{
+  height:50px;
+  width: 90px;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarstats:hover{
+  background-color: #45515f;
+}
+.upbarforum{
+  height:50px;
+  width: 60px;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarforum:hover{
+  background-color: #45515f;
+}
+.upbarlive{
+  height:50px;
+  width: 102px;
+  border-right: 1px solid #404d5b;
+  float: left;
+  cursor: pointer;
+}
+.upbarlive:hover{
+  background-color: #45515f;
+}
+
+
+#monthlist19{
+  display: none;
+}
+#monthlist20{
+  display: none;
+}
+#monthlist21{
+  display: block;
+}
